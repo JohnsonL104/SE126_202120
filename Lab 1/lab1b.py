@@ -1,3 +1,21 @@
+# Lucas Johnson
+# 
+# Lab #1B
+#
+# 1/13/2021
+#
+# SE126_202120
+#
+# Edit the program you created in Lab #1A so that when the user is prompted to continue, they can only answer with an uppercase or lowercase y or n. 
+#
+#   VARIABLE DICTIONARY:
+#       answer          The answer to whether the user is going to enter another room
+#       max             The max capacity of the room being entered
+#       ppl             The ammount of people attending the meeting being entered
+#       availible       The availible amount of space in the meeting if there is room
+#       remove          The ammount of people needed to be removed from the meeting if there are too many people being attended
+
+
 
 answer = 'y'
 
