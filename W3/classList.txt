@@ -1,0 +1,11 @@
+Tamia,19,Bunny,Pink,12
+Lucas,18,Dog,Blue,5
+Dylan,18,Cat,Green,27
+Antonio,32,Horse,Green,47
+Ethan,19,Bird,Magenta,7
+Joel,18,Tiger,Orange,42
+Justin,19,Tiger,Blue,22
+Lance,18,Dog,Purple,6
+Nate,19,Dog,Yellow,6
+Katie,50,Elephant,Grey,7
+Tanya,18,Chicken,Purple,21
