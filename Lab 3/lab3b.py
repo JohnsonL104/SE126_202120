@@ -1,34 +1,29 @@
 # Lucas Johnson
 # 
-# Lab #5B
+# Lab #3a
 #
-# 11/22/2020
+# 1/30/2021
 #
-# 202110_SE116.11 Program Essentials with Python
+# SE126_202120
 #
-#Construct a program that will analyze potenial voters. The program should generate the following totals:
-#1. Number of individuals not eligible to register.
-#2. Number of individuals who are old enough to vote but have not registered.
-#3. Number of individuals who are eligible to vote but did not vote.
-#4. Number of individuals who did vote.
-#5. Number of records processed.
-#The program must prompt the user for the ID number, age, if the person is registered to vote, and if the
-#person voted. You will also have to prompt to see if the user has more data to enter.
+#  Rewrite the Voter Registration Lab utilizing the data from the file voters.csv.
+#  Store the field data into respective lists, and then process the lists to determine
+#  the 5 final output values (make sure they are clearly labeled!). This final solution
+#  should have NO input() statements and when the console is ran it should print all 5
+#  totals (you may reprint the data from the lists/fie if you would like)  Use your original
+#  Voter Registration Lab (or the solution file!) as starter code, but edit it to connect to
+#  a file and store data into lists, then use a for loop to process each voter and their data
+#  to find the 5 totals. 
 #
 #   VARIABLE DICTIONARY:
-#       anotherEntry            Wheather the user is going to enter another entry
-#       voterList               The list of a list of data for each entry
 #       nonEligible             The ammount of Not old enough entries
 #       eligibleNonRegistered   The ammount of Non registerd of age entries
 #       eligibleNonVoted        The ammount of Of age registered but didn't  vote entries
-#       voted                   The ammount of entries that voted
-#       records                 The ammount of entries
-#       id                      The id number of the person that is being entered
-#       age                     The age of the person that is being entered
-#       registered              Wheather the person that is being entered is registered or not
-#       hasVoted                Wheather the person that is being entered has voted or not
-#       voter                   The current itteration in the voterList
-
+#       noVoted                 The ammount of entries that voted
+#       id                      The list for the id field
+#       age                     The list for the age field
+#       registered              The list for the registered field
+#       voted                   The list for the voted field
 import csv
 
 id = []
