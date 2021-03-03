@@ -128,7 +128,9 @@ def menu():
             for i in range(0, len(indexs)):
                 print("\nID Code: {0}\nFirst Name: {2}\nLast Name: {1}\nAge: {3}\nAllegiance: {4}".format(idCode[indexs[i]], lname[indexs[i]], fname[indexs[i]], age[indexs[i]], allegiance[indexs[i]]))
         else:
-            print("Could not find {0}(Searches are case sensitive)".format(item))        
+            print("Could not find {0}(Searches are case sensitive)".format(item))  
+    else:
+        print("That is not a valid option")      
 
 def again():
     a = input("\nWould you like to search again?(Y/N): ")
